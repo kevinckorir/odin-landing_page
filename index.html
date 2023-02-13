@@ -16,7 +16,7 @@
           </li>
         </section>
 
-        <ul>
+        <ul class="secondary-text">
           <li><a href="header_link_one">header link one</a></li>
           <li><a href="header_link_two">header link two</a></li>
           <li><a href="header_link_three">header link three</a></li>
@@ -25,19 +25,21 @@
 
       <section class="hero">
         <section class="title">
-          <h2 class="main-text">This Website is Awesome</h2>
-          <p>
+          <h2 class="main-text">
+            This Website is <br />
+            Awesome
+          </h2>
+          <p class="secondary-text">
             This website has some subtext that goes here under the main title.
+            <br />
             It's a smaller font and the color is lower contrast
           </p>
-          <button class="no-grow" type="submit">Sign up</button>
+          <button class="larger-text" type="submit">Sign up</button>
         </section>
-        <div class="box image">
+        <div class="image">
           <img
-            src="https://images.pexels.com/photos/9294122/pexels-photo-9294122.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
-            alt="piano"
-            height="200px"
-            width="400px"
+            src="https://images.pexels.com/photos/15118224/pexels-photo-15118224.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="horses"
           />
         </div>
         <!--To DO: add an image-->
@@ -45,37 +47,65 @@
     </header>
     <main>
       <section class="cards">
-        <h3>Some Random information</h3>
-        <section class="card">
-          <div class="box"></div>
-          <p>This is some subtext under an illustration</p>
+        <section class="cards-heading">
+          <h3>Some Random information</h3>
         </section>
-        <section class="card">
-          <div class="box"></div>
-          <p>This is some subtext under an illustration</p>
-        </section>
-        <section class="card">
-          <div class="box"></div>
-          <p>This is some subtext under an illustration</p>
-        </section>
-        <section class="card">
-          <div class="box"></div>
-          <p>This is some subtext under an illustration</p>
+        <section class="container">
+          <section class="card">
+            <div class="box"></div>
+            <p>
+              This is some subtext <br />
+              under an illustration <br />
+              or image
+            </p>
+          </section>
+          <section class="card">
+            <div class="box"></div>
+            <p>
+              This is some subtext <br />
+              under an illustration <br />
+              or image
+            </p>
+          </section>
+          <section class="card">
+            <div class="box"></div>
+            <p>
+              This is some subtext <br />
+              under an illustration <br />
+              or image
+            </p>
+          </section>
+          <section class="card">
+            <div class="box"></div>
+            <p>
+              This is some subtext <br />
+              under an illustration <br />
+              or image
+            </p>
+          </section>
         </section>
       </section>
       <section class="quote">
-        This is an inspiring quote, or a testimonial from a customer.Maybe its
-        just filling up space, or maybe people will actually read it. Who Knows?
-        All i know is that it looks nice<span>-Thor,God of Thunder</span>
+        <section class="quote-text">
+          This is an inspiring quote, or a testimonial from a customer. <br />
+          Maybe its just filling up space, or maybe people will actually read
+          it. <br />
+          Who Knows? All i know is that it looks nice
+        </section>
+        <section class="quote-name">-Thor,God of Thunder</section>
       </section>
-      <section class="call-to-action">
-        <p>
-          Call to action! It's time! <br />
-          Sign up for our product by clicking that button right over there!
-        </p>
-        <button class="button light">Sign up</button>
+      <section class="call-to-action-container">
+        <section class="call-to-action secondary-text">
+          <p>
+            <span class="larger-text">Call to action! It's time!</span> <br />
+            Sign up for our product by clicking that button right over there!
+          </p>
+          <button class="button light larger-text">Sign up</button>
+        </section>
       </section>
     </main>
-    <footer>Copyright &copy; The odin project 2023</footer>
+    <footer>
+      <p class="secondary-text">Copyright &copy; The odin project 2023</p>
+    </footer>
   </body>
 </html>
